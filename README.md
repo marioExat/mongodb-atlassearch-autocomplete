@@ -1,4 +1,4 @@
-MONGO DB ATLAS search sample app
+# MONGO DB ATLAS search sample app
 
 ## Links
 
