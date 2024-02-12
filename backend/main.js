@@ -40,7 +40,7 @@ server.get("/search", async (req, res) => {
           },
         },
         {
-          $limi: 10,
+          $limit: 10,
         },
       ])
       .toArray();
