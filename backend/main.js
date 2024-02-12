@@ -40,13 +40,13 @@ server.get("/search", async (req, res) => {
           },
         },
         {
-          $limit: 10,
+          $limi: 10,
         },
       ])
       .toArray();
     res.send(result);
   } catch (error) {
-    response.status(500).send({ message: e.message });
+    res.status(500).send({ message: error.message });
   }
 });
 server.listen(port, async () => {
